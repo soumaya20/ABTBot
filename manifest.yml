@@ -1,1 +1,6 @@
-
+applications:
+memory:256M
+instances: 1
+name: Samobot
+random-route: false
+timeout: 180
