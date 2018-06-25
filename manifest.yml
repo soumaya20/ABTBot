@@ -1,5 +1,9 @@
-applications:
-- name: Samobot
-  memory: 256M
-  random-route: true
-  timeout: 180
+ applications:
+- path: .
+ memory: 128M
+ instances: 1
+ domain: mybluemix.net
+ name: Samobot
+ host: Samobot
+ disk_quota: 1024M
+ buildpack: php_buildpack
