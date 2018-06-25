@@ -1,6 +1,6 @@
 applications:
-memory:256M
-instances: 1
-name: Samobot
-random-route: false
-timeout: 180
+- name: Samobot
+  memory:256M
+  instances: 1
+  random-route: true
+  timeout: 180
