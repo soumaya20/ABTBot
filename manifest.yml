@@ -1,8 +1,4 @@
- applications:
-- memory: 128M
- instances: 1
- domain: mybluemix.net
- name: Samobot
- host: Samobot
- disk_quota: 1024M
- buildpack: php_buildpack
+applications:
+- name: Samobot
+  random-route: true
+  memory: 128M
